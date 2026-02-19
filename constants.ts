@@ -10,18 +10,10 @@ export const GAMES_DATA: Game[] = [
     description: 'Bake an absurd amount of cookies in this classic idle game.'
   },
   {
-    id: 'fnae',
-    title: "Five Nights at Epstein's",
-    thumbnail: 'https://picsum.photos/seed/island/300/200',
-    url: 'https://scratch.mit.edu/projects/embed/1039871141',
-    category: GameCategory.HORROR,
-    description: 'Survival horror parody. Can you survive the night on the island?'
-  },
-  {
     id: 'slope',
     title: 'Slope',
     thumbnail: 'https://picsum.photos/seed/slope/300/200',
-    url: 'https://kdata1.com/2020/05/slope/',
+    url: 'https://slope-game.github.io/',
     category: GameCategory.ARCADE,
     description: 'An intense fast-paced 3D platformer. Roll down the neon slope, avoid obstacles, and don’t fall off!'
   },
@@ -48,14 +40,6 @@ export const GAMES_DATA: Game[] = [
     url: 'https://basketbros.io/',
     category: GameCategory.SPORTS,
     description: 'Fast-paced 1v1 basketball. Dunk on your friends!'
-  },
-  {
-    id: 'basket-random',
-    title: 'Basket Random',
-    thumbnail: 'https://picsum.photos/seed/random/300/200',
-    url: 'https://basket-random.com/',
-    category: GameCategory.SPORTS,
-    description: 'Physics-based basketball where everything is random.'
   },
   {
     id: 'retro-bowl',
